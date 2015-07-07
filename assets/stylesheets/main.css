@@ -1,0 +1,55 @@
+header {
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+  text-align: center;
+  font-size: 43px;
+  font-weight: bold
+}
+
+/* Found this CSS from stackoverflow, to blur my background image without blurring my text */
+body:before {
+    content: "";
+    position: absolute;
+    background: url(https://scontent-lga1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1918773_132165590372_963415_n.jpg?oh=d78b0f70fa0814f9236ebdb135e15369&oe=560FBE57);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    height: 20%; width: 20%;
+    transform: scale(5);
+    transform-origin: top left;
+    -webkit-filter: blur(.5px);
+}
+
+nav.button{
+  border: 1px solid;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#careerGoals{
+  text-align: center;
+  padding-top: 100px;
+}
+
+#history{
+  color:;
+  text-align: center;
+  padding: 0 200px 0 200px;
+}
+
+#careerGoals a,
+#careerGoals p {
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: 1px 12px 1px 12px;
+  display: inline;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 2px 4px 1px #0A0A0A;
+     -moz-box-shadow: 1px 2px 4px 1px #0A0A0A;
+          box-shadow: 1px 2px 4px 1px #0A0A0A;
+}
+
+.container p {
+
+}
