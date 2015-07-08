@@ -3,13 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Personnel Website</title>
-    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <script type="text/javascript" src="../jquery/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="assets/script.js"></script>
   </head>
   <body>
     <header id="name">Charlie Blackstock</header>
-    <section id="history" class="container">
-      <nav class="button">
-        <h2>Background</h2>
+
+      <div id="history" class="button">
+        <button type="button" class="backgroundButton"><h2>Background</h2></button>
+        <section class="container">
           <p>
             I was born in Pasadena, California, but moved to Evergreen, Colorado when I was 2 years old.  Living in a small mountain town gave me a chance to become one with the Force and get a real head start on my training to become a Jedi Master.
           </p>
@@ -17,16 +20,13 @@
             I attended Evergreen High School("EHS") and graduated in 2008.  While at EHS I played several sports like basketball, soccer, track, and lacrosse.
           </p>
           <p>
-            After high school, I attended University of Colorado at Boulder.  In 2012, I graduated form CU with a double emphasis in Accounting and Finance.  Then, I decided to further my educaiton and attended the University of Southern California where I got my Master's in Accounting.
+            After high school, I attended University of Colorado at Boulder.  In 2012, I graduated form CU with a double emphasis in Accounting and Finance.  While at CU, I rode my bicycle form San Francisco to Washington D.C., on behalf of people with disabilities.  After my time at CU, I decided to further my educaiton and attended the University of Southern California where I got my Master's in Accounting.
           </p>
           <p>
             I spent the past two years working at a public accounting firm in Denver; however, I had starting doing some programming, after my older brother attended gSchool.  And that has lead me to here...
-
-      </nav>
-    </section>
         </p>
-    <nav id="careerGoals">
-      <a href="/Users/Chuck/gSchool/prework/_06_personal-project/careerGoals.html">Career Goals</a>
-    </nav>
+          <button type="button" id="careerButton" onclick="location.href = '/Users/Chuck/gSchool/personalWebsite/future.html'"><h2>Career Goals</h2></button>
+        </section>
+      </div>
   </body>
 </html>
