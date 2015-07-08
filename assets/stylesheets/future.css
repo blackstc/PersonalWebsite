@@ -1,0 +1,46 @@
+body:before {
+    content: "";
+    position: absolute;
+    background: url(http://www.aloha-hawaiian.com/images/newsite/HawaiiSunsetHoneymoon.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    height: 20%; width: 20%;
+    transform: scale(5);
+    transform-origin: top left;
+    -webkit-filter: blur(.5px);
+}
+
+Button {
+	background-color:firebrick;
+	border-radius: 10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-weight:bold;
+	padding: 1px 20px;
+	text-shadow:0px 1px 0px #283966;
+}
+
+Button:hover {
+	background-color:orangered;
+}
+
+Button:active {
+	position:relative;
+	top:1px;
+}
+
+.container{
+  border: 3px solid;
+  background-color: rgba(255, 255, 255, 0.5);
+  display:none;
+  padding-bottom: 15px;
+  margin-top: 40px;
+}
+
+#history{
+  color:;
+  text-align: center;
+  padding: 0 200px 0 200px;
+}
